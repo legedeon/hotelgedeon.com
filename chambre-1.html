@@ -11,17 +11,18 @@
     }
   </style>
   <script>
-    document.querySelector('button').onclick = function() {
-      console.log('OPEN and CLOSE')
-      const wnd = window.open("http://www.hotelgedeon.com")
-      setTimeout(function() {
-        wnd.close()
-      }, 5000);
-      return false
-    }
-    window.close()
+    window.addEventListener("load", function(event) {
+      document.querySelector('button').onclick = function() {
+        console.log('OPEN and CLOSE')
+        const wnd = window.open("http://www.hotelgedeon.com")
+        setTimeout(function() {
+          wnd.close()
+        }, 500);
+        return false
+      }
+    })
   </script>
   <header>
-    <button>Fermer.</button>
+    <button>Ouvrir puis Fermer</button>
   </header>
 </html>

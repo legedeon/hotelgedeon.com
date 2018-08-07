@@ -424,7 +424,7 @@
 	var clickMenu = function() {
 
 		jQuery('.navbar-nav a:not([class="external"])').click(function(event){
-
+			event.preventDefault();
 			var section = jQuery(this).data('nav-section'),
 				navbar = jQuery('.navbar-nav');
 				if (isMobile.any()) {
@@ -433,10 +433,11 @@
 				if ( jQuery('[data-section="' + section + '"]').length ) {
 			    	jQuery('html, body').animate({
 			        	scrollTop: jQuery('[data-section="' + section + '"]').offset().top - 55
-			    	}, 500, 'easeInOutExpo');
+					}, 500, 'easeInOutExpo');
+			   } else {
+				window.location = event.currentTarget.href;
 			   }
 
-		    event.preventDefault();
 		    return false;
 		});
 

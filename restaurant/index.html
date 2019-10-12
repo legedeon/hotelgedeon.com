@@ -24,11 +24,14 @@
 <meta name=twitter:url content=http://www.hotelgedeon.com/restaurant />
 <script async src=https://www.googletagmanager.com/gtag/js?id=UA-92595922-1></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
+  // Don't force https when serving the website locally
+  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
+    window.location.protocol = "https"
+  window.dataLayer = window.dataLayer || []
+  function gtag() { dataLayer.push(arguments) }
+  gtag('js', new Date())
 
-  gtag('config', 'UA-92595922-1');
+  gtag('config', 'UA-92595922-1')
 </script>
   <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
     <div class=container>

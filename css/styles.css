@@ -225,7 +225,7 @@ sup {
 }
 sub {
     bottom: -0.25em
-}   
+}
 
 /* ==========================================================================
 Lists
@@ -794,7 +794,7 @@ blockquote .logo-quote {
 Showcase
 ========================================================================== */
 .showcase {
-    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: url('../img/plage-carnon.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 .showcase h1 {

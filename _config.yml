@@ -1,0 +1,15 @@
+title: Hotel gedeon
+email: arnaudjoannides@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Bienvenue à l'hôtel Gédéon, cet hôtel restaurant atypique, familial et convivial situé à Carnon à tout juste quelques mètres de la plage. Pour vos vacances ou pour vos week-ends, pour vous détendre en famille ou pour vos rendez-vous d'affaires, l'hôtel Gédéon se fera un plaisir de vous recevoir dans une ambiance détendue pour votre plus grand confort..
+url: https://www.hotelgedeon.com
+
+# Build settings
+theme: minima
+
+collections:
+  product:
+    output: true
+
+plugins:
+  - jekyll-feed

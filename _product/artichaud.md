@@ -1,5 +1,0 @@
----
-title: Artichaud
----
-
-# Artichaud

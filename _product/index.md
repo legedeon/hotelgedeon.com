@@ -4,5 +4,11 @@
 
 layout: default
 ---
-
-{% include liste.html %}
+{% include nav.html %}
+{% include welcome.html %}
+{% include presentation.html %}
+{% include dishes.html %}
+{% include list.html %}
+{% include map.html %}
+{% include booking.html %}
+{% include footer.html %}

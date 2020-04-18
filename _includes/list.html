@@ -1,0 +1,89 @@
+<section
+  class="probootstrap-section-bg overlay"
+  style="background-image: url(/restaurant/img/VueGambas.jpg);"
+  data-stellar-background-ratio="0.5"
+  data-section="menu"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center probootstrap-animate">
+        <div class="probootstrap-heading">
+          <h2 class="primary-heading">Menu</h2>
+          <h3 class="secondary-heading">Gourmand</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="probootstrap-section probootstrap-bg-white">
+  <div class="container">
+    <div class="row">
+      <h1>Les plats à emporter disponibles pour mardi 14 avril</h1>
+      <hr />
+      <div class="col-md-12">
+        <ul class="menus">
+          {% for product in site[page.collection] %} {% unless product.url
+          contains "index.html" %} {% if product.display.list-day %}
+          <li>
+            <figure class="image">
+              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+            </figure>
+            <div class="text">
+              <span class="price">{{ product.price }} €</span>
+              <h3>{{ product.title }}</h3>
+            </div>
+          </li>
+          {% endif %} {% endunless %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <h1>La vente directe</h1>
+      <hr />
+      <div class="col-md-12">
+        <ul class="menus">
+          {% for product in site[page.collection] %} {% unless product.url
+          contains "index.html" %} {% if product.display.list-takeaway %}
+          <li>
+            <figure class="image">
+              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+            </figure>
+            <div class="text">
+              <span class="price">{{ product.price }} €</span>
+              <h3>{{ product.title-list }}</h3>
+            </div>
+          </li>
+          {% endif %} {% endunless %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <h1>Les boissons à emporter</h1>
+      <hr />
+      <div class="col-md-12">
+        <ul class="menus">
+          {% for product in site[page.collection] %} {% unless product.url
+          contains "index.html" %} {% if product.display.list-drink %}
+          <li>
+            <figure class="image">
+              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+            </figure>
+            <div class="text">
+              <span class="price">{{ product.price }} €</span>
+              <h3>{{ product.title-list }}</h3>
+            </div>
+          </li>
+          {% endif %} {% endunless %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <h5>
+      La disponibilité des plats et des produits dépend des arrivages. En cette
+      période de confinement, les livraisons de nos fournisseurs peuvent être
+      perturbées, merci de votre compréhension.
+    </h5>
+    <h5>Prix nets TTC</h5>
+  </div>
+</section>

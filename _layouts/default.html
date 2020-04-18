@@ -1,9 +1,40 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <body>
-    <h1>Produits</h1>
-    <main class="container">
-      {{ content }}
-    </main>
-  </body>
+<html lang=fr>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Restaurant, bar à vin, tapas, le Gédéon : Attention fournisseur de bonheurs !</title>
+<meta name=description content="Bienvenue au Gédéon, ce restaurant atypique, familial et convivial situé à Carnon à tout juste quelques mètres de la plage. Arnaud et Hakima se feront un plaisir de vous recevoir dans une ambiance détendue pour votre plus grand confort."
+/>
+
+<meta name=keywords content="plage, Carnon, Montpellier, musique, restaurant, vin, tapas" />
+
+<link href=https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script rel=stylesheet>
+<link rel=stylesheet href=/restaurant/css/styles-merged.css>
+<link rel=stylesheet href=/restaurant/css/style.css>
+<!-- Facebook and Twitter integration -->
+<meta property=og:title content="Restaurant Gedeon Carnon Plage" />
+<meta property=og:type content=website />
+<meta property=og:image content="http://www.hotelgedeon.com/img/01-screenshot.jpg" />
+<meta property=og:url content=http://www.hotelgedeon.com/restaurant />
+<meta property=og:site_name content="Hotel gedeon" />
+<meta property=og:description content="Bienvenue à l'hôtel Gédéon, cet hôtel restaurant atypique, familial et convivial situé à Carnon à tout juste quelques mètres de la plage. Pour vos vacances ou pour vos week-ends, pour vous détendre en famille ou pour vos rendez-vous d'affaires, la plage du Gédéon se fera un plaisir de vous recevoir dans une ambiance détendue pour votre plus grand confort."
+/>
+<meta name=twitter:title content="Hotel Restaurant Gedeon Carnon Plage" />
+<meta name=twitter:image content=http://www.hotelgedeon.com/img/01-screenshot.jpg />
+<meta name=twitter:url content=http://www.hotelgedeon.com/restaurant />
+<script async src=https://www.googletagmanager.com/gtag/js?id=UA-92595922-1></script>
+<script>
+  // Don't force https when serving the website locally
+  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
+    window.location.protocol = "https"
+  window.dataLayer = window.dataLayer || []
+  function gtag() { dataLayer.push(arguments) }
+  gtag('js', new Date())
+
+  gtag('config', 'UA-92595922-1')
+</script>
+{{content}}
+  <script src=/restaurant/js/scripts.min.js></script>
+  <script src=/restaurant/js/custom.js></script>
 </html>
+

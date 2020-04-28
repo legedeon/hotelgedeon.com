@@ -1,9 +1,8 @@
 ---
-title: Salade caesar
-description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+title: Assiette de charcuterie
+description: Jambon, Coppa des Salaisons Gueze et Chorizo ibérique
+img: SpecialCharcut.jpg
+price: 9
 display:
   dish: false
   list-day: true

@@ -5,9 +5,9 @@ img: 09-mi-cuit-de-saumon.jpg
 description: >
   Le saumon torréfié aux épices, sauce au café et les petites herbes fraiches
 price: 7
-display: 
-  dish: true
+display:
+  dish: false
   list-day: false
-  list-takeaway: true
+  list-takeaway: false
   list-drink: false
 ---

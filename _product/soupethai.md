@@ -5,8 +5,8 @@ img: SpecialSoupeThai.jpg
 description: Une soupe résolument asiatique, du poulet et des pattes aux oeufs. Coriandre.
 price: 5
 display:
-  dish: true
-  list-day: true
+  dish: false
+  list-day: false
   list-takeaway: false
   list-drink: false
 ---

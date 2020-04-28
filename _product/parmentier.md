@@ -1,8 +1,8 @@
 ---
-title: Salade caesar
-description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
+title: Parmentier
+title-list: Parmentier de canard
+description: Effiloché de confit de canard maison, caché par la vraie purée comme à la maison. Petit confit d'échalottes.
+img: SpecialParmentier.jpg
 price: 7
 display:
   dish: false

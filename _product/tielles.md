@@ -6,8 +6,8 @@ img: tielle-dasse.jpg
 alt: tielles dasse
 price: 2.5
 display:
-  dish: true
-  list-day: true
-  list-takeaway: false
+  dish: false
+  list-day: false
+  list-takeaway: true
   list-drink: false
 ---

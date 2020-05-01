@@ -1,9 +1,5 @@
-<section
-  class="probootstrap-section-bg overlay"
-  style="background-image: url(/restaurant/img/VueSaladeCourgettes.jpg);"
-  data-stellar-background-ratio="0.5"
-  data-section="specialties"
->
+<section class="probootstrap-section-bg overlay" style="background-image: url(/restaurant/img/VueSaladeCourgettes.jpg);"
+  data-stellar-background-ratio="0.5" data-section="specialties">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center probootstrap-animate">
@@ -19,20 +15,14 @@
   <div class="container">
     <div class="row">
       <div class="probootstrap-cell-retro">
-        {% assign count= 0 %} {% for product in site[page.collection] %} {%
+        {% assign count= 0 %} {% for product in site.products %} {%
         unless product.url contains "index.html" %} {% if product.display.dish
         %} {% assign count = count | plus: 1 %}{% if count == 1 %}
         <div class="half">
           {% endif %}
-          <div
-            class="probootstrap-cell {% if count == 2  %}reverse
-              {% endif %} probootstrap-animate fadeIn probootstrap-animated"
-            data-animate-effect="fadeIn"
-          >
-            <div
-              class="image"
-              style="background-image: url(mini-tof/{{ product.img }});"
-            ></div>
+          <div class="probootstrap-cell {% if count == 2  %}reverse
+              {% endif %} probootstrap-animate fadeIn probootstrap-animated" data-animate-effect="fadeIn">
+            <div class="image" style="background-image: url(/products/mini-tof/{{ product.img }});"></div>
             <div class="text text-center">
               <h3>{{ product.title }}</h3>
               <p>

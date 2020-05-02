@@ -8,7 +8,7 @@ url: https://www.hotelgedeon.com
 theme: minima
 
 collections:
-  product:
+  products:
     output: true
 
 plugins:

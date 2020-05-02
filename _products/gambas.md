@@ -5,7 +5,7 @@ description: >
 img: 28-salade-caesar.jpg
 price: 7
 display:
-  dish: false
+  dish: true
   list-day: false
   list-takeaway: false
   list-drink: false

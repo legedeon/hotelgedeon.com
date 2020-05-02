@@ -1,9 +1,5 @@
-<section
-  class="probootstrap-section-bg overlay"
-  style="background-image: url(/restaurant/img/VueGambas.jpg);"
-  data-stellar-background-ratio="0.5"
-  data-section="menu"
->
+<section class="probootstrap-section-bg overlay" style="background-image: url(/restaurant/img/VueGambas.jpg);"
+  data-stellar-background-ratio="0.5" data-section="menu">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center probootstrap-animate">
@@ -23,11 +19,11 @@
       <hr />
       <div class="col-md-12">
         <ul class="menus">
-          {% for product in site[page.collection] %} {% unless product.url
+          {% for product in site.products %} {% unless product.url
           contains "index.html" %} {% if product.display.list-day %}
           <li>
             <figure class="image">
-              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+              <img src="/products/mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
             </figure>
             <div class="text">
               <span class="price">{{ product.price }} €</span>
@@ -43,11 +39,11 @@
       <hr />
       <div class="col-md-12">
         <ul class="menus">
-          {% for product in site[page.collection] %} {% unless product.url
+          {% for product in site.products %} {% unless product.url
           contains "index.html" %} {% if product.display.list-takeaway %}
           <li>
             <figure class="image">
-              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+              <img src="/products/mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
             </figure>
             <div class="text">
               <span class="price">{{ product.price }} €</span>
@@ -63,11 +59,11 @@
       <hr />
       <div class="col-md-12">
         <ul class="menus">
-          {% for product in site[page.collection] %} {% unless product.url
+          {% for product in site.products %} {% unless product.url
           contains "index.html" %} {% if product.display.list-drink %}
           <li>
             <figure class="image">
-              <img src="./mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
+              <img src="/products/mini-tof/{{ product.img }}" alt="{{ product.alt }}" />
             </figure>
             <div class="text">
               <span class="price">{{ product.price }} €</span>

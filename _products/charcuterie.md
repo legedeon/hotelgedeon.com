@@ -1,7 +1,8 @@
 ---
 title: Assiette de charcuterie
+title-list: Assiette de charcuterie
 description: Jambon, Coppa des Salaisons Gueze et Chorizo ibérique
-img: SpecialCharcut.jpg
+img: charcuterie.jpg
 price: 9
 display:
   dish: false

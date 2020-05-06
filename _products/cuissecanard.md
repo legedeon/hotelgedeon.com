@@ -1,9 +1,9 @@
 ---
-title: Salade caesar
+title: Confit de canard, pommes grenailles
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Cuisse de confit de canard maison, pommes de terre grenailles doucement rôties.
+img: cuissecanard.jpg
+price: 9
 display:
   dish: true
   list-day: true

@@ -1,11 +1,11 @@
 ---
-title: Le Petit Caboulot 50cl
-title-list: Bières artisanales, le Petit Caboulot 50cl
+title: Jus du Verger de Thau
+title-list: Jus du Verger de Thau 25cl
 description: >
   Jus du Verger de Thau: Pêche, Abricot, Pomme, Poire, Tomate, Fraise 25cl
-img: 29-biere-petit-caboulot.jpg
-alt: Le Petit Caboulot 50cl
-price: 4.5
+img: vergerthau.jpg
+alt: VergerDeThau
+price: 2.5
 display:
   dish: false
   list-day: false

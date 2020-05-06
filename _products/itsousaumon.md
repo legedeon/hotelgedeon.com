@@ -1,12 +1,13 @@
 ---
-title: Salade caesar
+title: Assiette Itsou saumon
+title-list: Assiette froide Itsou darne de saumon, crudités, sauce teriyaki
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Saumon élevé comme il faut, teriyaki maison, quinoa et crudités.
+img: assietteitsou.jpg
+price: 9
 display:
-  dish: false
-  list-day: false
+  dish: true
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

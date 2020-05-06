@@ -1,11 +1,12 @@
 ---
-title: Salade caesar
+title: Croustillant de brie
+title-list: Croustillant de brie, chutney aux airelles, salade verte
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Brie juste coulant dans sa brick, salade verte, chutney aux airelles.
+img: croustillantbrie.jpg
+price: 6
 display:
-  dish: false
+  dish: true
   list-day: true
   list-takeaway: false
   list-drink: false

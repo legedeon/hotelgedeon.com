@@ -1,8 +1,7 @@
 ---
-title: Salade caesar
-description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
+title: Filets de poulet frites
+description: Filets de poulet français, frites, pour les enfants
+img: 10-nuggets.jpg
 price: 7
 display:
   dish: false

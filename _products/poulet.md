@@ -4,7 +4,7 @@ title-list: Poulet fermier du sud-ouest, env 1,6kg, rôti. DISPONIBLE UNIQUEMENT
 description:
 img: poulet.jpg
 alt: Poulet fermier du sud-ouest
-price: 2.5
+price: 18
 display:
   dish: false
   list-day: false

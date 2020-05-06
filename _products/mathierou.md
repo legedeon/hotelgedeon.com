@@ -2,7 +2,7 @@
 title: Château La Clotte Fontane Mathierou
 title-list: Château La Clotte Fontane Cuvée Mathierou AOP coteaux du Languedoc 75cl
 description: Château La Clotte Fontane Cuvée Mathierou AOP coteaux du Languedoc 75cl
-img: 29-biere-petit-caboulot.jpg
+img: mathierou.jpg
 alt: Château La Clotte Fontane Mathierou
 price: 10
 display:

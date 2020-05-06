@@ -1,11 +1,12 @@
 ---
 title: Salade caesar
+title-list: Assiette Gédéon: 1 seiche, 2 gambas, patates à l'aoili
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Seiches, gambas, patates, aïoli, un condensé des saveurs historiques du Gédéon.
+img: SpecialAssietteGedeon.jpg
+price: 10
 display:
-  dish: true
+  dish: false
   list-day: false
   list-takeaway: false
   list-drink: false

@@ -1,12 +1,13 @@
 ---
-title: Salade caesar
+title: Assiette de légumes à l'ancienne
+title-list: Assiette de légumes à l'ancienne, feta, amandes roties
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Assiette de légumes à l'ancienne, feta, amandes roties
+img: assiettelegumes.jpg
+price: 6
 display:
   dish: false
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

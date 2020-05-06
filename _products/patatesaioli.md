@@ -1,12 +1,13 @@
 ---
-title: Salade caesar
+title: Patates à l'aioli
+title-list: Patates à l'aioli
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Pommes de terre rouges en douce vapeur, mélangées en minute à notre sauce aïoli et quelques dés de seiche à la plancha.
+img: patates.jpg
+price: 5
 display:
-  dish: false
-  list-day: false
+  dish: true
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

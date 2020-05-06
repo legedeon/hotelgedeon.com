@@ -1,10 +1,10 @@
 ---
-title: Salade de courgettes
-title-list: Salade de courgettes, tomates séchées, basilic, feta, amandes
-img: 17-salade-courgettes.jpg
+title: Seiches à la plancha
+title-list: Seiches à la plancha, aïoli
+img: SpecialSeiches.jpg
 description: >
-  Courgettes poêlées craquantes, tomates séchées et oignons rouges caramélisés.
-price: 5
+  Les seiches juste baignées au chaud le matin et grillées à point au dernier moment.
+price: 7
 display:
   dish: false
   list-day: false

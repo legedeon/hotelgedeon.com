@@ -1,8 +1,9 @@
 ---
-title: Salade caesar
+title: Assiette de mezze grecs
+title-list: Assiette de mezze grecs
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
+  En direct live de Grèce: pastourma, olives kalamata, poivrons, hoummous, fromage grec.
+img: SpecialMezze.jpg
 price: 7
 display:
   dish: false

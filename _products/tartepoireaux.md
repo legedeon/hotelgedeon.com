@@ -1,5 +1,5 @@
 ---
-title: Salade de courgettes
+title: Tarte
 title-list: Salade de courgettes, tomates séchées, basilic, feta, amandes
 img: 17-salade-courgettes.jpg
 description: >

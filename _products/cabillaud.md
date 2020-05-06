@@ -1,10 +1,10 @@
 ---
-title: Salade caesar
-title-list: Soupe de poulet au curry rouge
+title: Cabillaud
+title-list: Dos de cabillaud
 description: >
-  De la salade iceberg, les morceaux de poulet francais panés, trés peu d'anchois.
-img: 28-salade-caesar.jpg
-price: 7
+  Dos de cabillaud, purée de carottes et écrasé de pommes grenailles aux herbes
+img: cabillaud.jpg
+price: 9
 display:
   dish: false
   list-day: false

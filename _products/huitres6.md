@@ -4,7 +4,7 @@ title-list: Huitres de Bouzigues "Le Mas" Patrice Brezeghello (6 pièces)
 description:
 img: 01-huitres.jpg
 alt: huitres de bouzigues le mas patrice brezeghello
-price: 4.5
+price: NON DISPONIBLE
 display:
   dish: false
   list-day: false

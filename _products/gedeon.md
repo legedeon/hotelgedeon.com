@@ -1,6 +1,6 @@
 ---
-title: Salade caesar
-title-list: Assiette Gédéon: 1 seiche, 2 gambas, patates à l'aoili
+title: Assiette Gédéon
+title-list: Assiette Gédéon 1 seiche, 2 gambas, patates à l'aoili
 description: >
   Seiches, gambas, patates, aïoli, un condensé des saveurs historiques du Gédéon.
 img: SpecialAssietteGedeon.jpg

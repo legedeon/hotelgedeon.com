@@ -6,7 +6,7 @@ img: SpecialMoussaka.jpg
 price: 7
 display:
   dish: false
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

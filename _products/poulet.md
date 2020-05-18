@@ -7,7 +7,7 @@ alt: Poulet fermier du sud-ouest
 price: 18
 display:
   dish: false
-  list-day: true
-  list-takeaway: true
+  list-day: false
+  list-takeaway: false
   list-drink: false
 ---

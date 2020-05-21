@@ -1,13 +1,13 @@
 ---
 title: Cabillaud
-title-list: Dos de cabillaud
 description: >
-  Dos de cabillaud, purée de carottes et écrasé de pommes grenailles aux herbes
+  Dos de cabillaud, purée de carottes et pommes de terre
+title-list: Dos de cabillaud, purée de carottes et pommes de terre
 img: cabillaud.jpg
 price: 9
 display:
   dish: false
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

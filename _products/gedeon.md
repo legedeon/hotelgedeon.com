@@ -1,12 +1,12 @@
 ---
-title: Assiette Gédéon 1 seiche, 2 gambas, patates à l'aoili
-title-list: Assiette Gédéon 1 seiche, 2 gambas, patates à l'aoili
+title: Assiette Gédéon
 description: >
   Seiches, gambas, patates, aïoli, un condensé des saveurs historiques du Gédéon.
+title-list: Assiette Gédéon 1 seiche, 2 gambas, patates à l'aoili
 img: assiettegedeon.jpg
 price: 10
 display:
-  dish: false
+  dish: true
   list-day: true
   list-takeaway: false
   list-drink: false

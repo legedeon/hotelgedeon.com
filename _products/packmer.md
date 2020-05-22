@@ -5,8 +5,8 @@ title-list: Le pack de la mer (rillettes de poissons, 6 huitres, 1 tielle)
 img: packmer.jpg
 price: 13
 display:
-  dish: true
-  list-day: true
+  dish: false
+  list-day: false
   list-takeaway: false
   list-drink: false
 ---

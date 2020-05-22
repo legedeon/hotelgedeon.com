@@ -1,13 +1,12 @@
 ---
-title: Mi-cuit de saumon
-title-list: Saumon mi-cuit
-img: 09-mi-cuit-de-saumon.jpg
-description: >
-  Le saumon torréfié aux épices, sauce au café et les petites herbes fraiches
-price: 7
+title: Travers de porc confit, frites 
+title-list: Travers de porc confit, frites
+img: 
+description:
+price: 9
 display:
   dish: false
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

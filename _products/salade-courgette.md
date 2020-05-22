@@ -6,7 +6,7 @@ description: >
   Courgettes poêlées craquantes, tomates séchées et oignons rouges caramélisés.
 price: 5
 display:
-  dish: true
+  dish: false
   list-day: true
   list-takeaway: false
   list-drink: false

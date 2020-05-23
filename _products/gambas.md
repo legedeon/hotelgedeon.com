@@ -6,7 +6,7 @@ description: >
 img: gambas.jpg
 price: 7
 display:
-  dish: false
+  dish: true
   list-day: true
   list-takeaway: false
   list-drink: false

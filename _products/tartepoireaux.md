@@ -6,8 +6,8 @@ description: >
   Une savoureuse tarte salée pour se régaler et aussi veggiter.
 price: 7
 display:
-  dish: false
-  list-day: false
+  dish: true
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

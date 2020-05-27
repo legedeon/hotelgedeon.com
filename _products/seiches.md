@@ -6,8 +6,8 @@ description: >
   Les seiches juste baignées au chaud le matin et grillées à point au dernier moment.
 price: 7
 display:
-  dish: true
-  list-day: true
+  dish: false
+  list-day: false
   list-takeaway: false
   list-drink: false
 ---

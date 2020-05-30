@@ -8,6 +8,6 @@ price: 18
 display:
   dish: false
   list-day: false
-  list-takeaway: false
+  list-takeaway: true
   list-drink: false
 ---

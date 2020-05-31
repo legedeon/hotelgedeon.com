@@ -6,7 +6,7 @@ description: >
 img: saladecaesar.jpg
 price: 6
 display:
-  dish: true
+  dish: false
   list-day: true
   list-takeaway: false
   list-drink: false

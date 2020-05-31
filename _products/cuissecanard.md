@@ -6,7 +6,7 @@ description: >
 img: cuissecanard.jpg
 price: 9
 display:
-  dish: true
+  dish: false
   list-day: true
   list-takeaway: false
   list-drink: false

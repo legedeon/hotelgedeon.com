@@ -6,7 +6,7 @@ title-list: Assiette Gédéon 1 seiche, 2 gambas, patates à l'aoili
 img: assiettegedeon.jpg
 price: 10
 display:
-  dish: true
+  dish: false
   list-day: true
   list-takeaway: false
   list-drink: false

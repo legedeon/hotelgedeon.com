@@ -4,10 +4,10 @@ title-list: Tielle Solo 120g de chez Dassé, emballage individuel, conditionné 
 description:
 img: tielle-dasse.jpg
 alt: tielles dasse
-price: 2.5
+price: 3.5
 display:
   dish: false
   list-day: false
-  list-takeaway: false
+  list-takeaway: true
   list-drink: false
 ---

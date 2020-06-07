@@ -9,5 +9,5 @@ display:
   dish: false
   list-day: false
   list-takeaway: false
-  list-drink: false
+  list-drink: true
 ---

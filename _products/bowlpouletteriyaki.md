@@ -6,7 +6,7 @@ img:
 price: 9
 display:
   dish: false
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

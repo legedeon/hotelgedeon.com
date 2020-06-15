@@ -6,7 +6,7 @@ img: boeufteriyaki.jpg
 price: 7
 display:
   dish: true
-  list-day: false
+  list-day: true
   list-takeaway: false
   list-drink: false
 ---

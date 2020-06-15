@@ -15,8 +15,10 @@
 <section class="probootstrap-section probootstrap-bg-white">
   <div class="container">
     <div class="row">
-      <h1>Les plats à emporter disponibles pour mercredi 10 juin</h1>
+      <h1>Les plats à emporter</h1>
       <hr />
+      <h3>Vous trouverez ci-dessous une liste indicative des assiettes que nous proposons à emporter, néanmoins cette liste change tous les jours. </h3>
+      <h3>Appelez nous pour en savoir plus, nous vous conseillerons pour votre commande.</h3>
       <div class="col-md-12">
         <ul class="menus">
           {% for product in site.products %} {% unless product.url
@@ -55,8 +57,9 @@
       </div>
     </div>
     <div class="row">
-      <h1>Les boissons à emporter</h1>
-      <hr />
+      <h1>Les boissons à emporter: <hr />
+      <h3>Vous trouverez ci-dessous des boissons que nous proposons à emporter, mais n'hésitez pas à nous demander autre chose, nous serons trés heureux de répondre à vos demandes.</h3>
+        <hr/>
       <div class="col-md-12">
         <ul class="menus">
           {% for product in site.products %} {% unless product.url

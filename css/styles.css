@@ -746,7 +746,15 @@ Features List
     margin-left: 0;
     width: 65%;
 }
-.feature-icon {
+.feature-offreevasion {
+    background-color: LightSkyBlue;
+}
+.feature-offreevasion h1 {
+    color: black;
+    text-align: center;  
+}
+
+}.feature-icon {
     display: inline-block;
     margin-right: 25px;
     width: 90px;
